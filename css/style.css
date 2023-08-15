@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.nav1{
+    display: flex;
+    list-style: none;
+    background-color: rgb(91, 21, 21);
+    height: 40px;
+    flex-direction: row-reverse;
+    color: rgb(227, 228, 231);
+}
+
+
+
+.nav{
+    display: flex;
+    position: fixed;
+    right: 0px;
+    left: 100px;
+    top: 30px;
+    width: 80%;
+    height: 50px;
+    background-color: rgb(227, 228, 231);
+    padding-right: 10px;
+    border-radius: 7px 7px 40px 40px;
+
+}
+nav ul{
+    margin: 0px;
+}
+
+.nav-item li{
+    position: fixed;
+    right: 0px;
+}
+
+.nav-item a{
+    margin-left: 20px;
+}
+
+.nomePway{
+    width: 65px;
+    height: 30px;
+    background-color: rgb(255, 73, 103);
+    font-size: 15px;
+    font-weight:500;
+    color: rgb(247, 243, 243);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 160px;
+    left: 130px;
+}
+
+#int{
+    width: 40%;
+    height: 100px;
+    position: fixed;
+    top: 200px;
+    left: 130px;
+}
+
+.h1-abalar{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: rgb(247, 243, 243);
+}
+
+.oPway{
+    font-size: 15px;
+    color: rgb(247, 243, 243);
+}
+
+
+.jogueAgora{
+    background-color: rgb(255, 73, 103);
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    border-radius: 30px 30px 30px 30px;
+    font-weight: bolder;
+    color: rgb(247, 243, 243);
+    width: 250px;
+    border: none;
+    position: fixed;
+    top: 420px;
+    left: 130px;
+    
+    
+}
+
+.buttonJogue{
+    display: flex;
+    align-items: left;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.imgint{
+    width: 100%;
+    height: 600px;
+}
+
+#atrativos{
+    display: flex;
+    align-items: center;
+    background-color: rgb(91, 21, 21);
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+}
+
+.eventos1{
+    background-color: rgb(255, 73, 103);
+    width: 180px;
+    color: rgb(247, 243, 243);
+    font-weight: 500;
+    font-size: 30px;
+    position: fixed;
+    top: 40px;
+    left: 30px;
+    border-radius: 10px 2px 10px 1px;
+    padding-left: 10px;
+}
+
+.bi{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.mudeRoupa{
+    display: flex;
+    position: fixed;
+    top: 100px;
+    align-items: center;
+    background-color: rgb(247, 243, 243);
+    width: 1000px;
+    height: 60px;
+    color:rgb(232, 148, 148);
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 30px 30px 30px 30px;
+    
+}
+
+#atrativos img{
+    width: 200px;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+}
+#imgs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 300px;
+}
+.h1matarazzo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 300px; 
+    margin-left: 100px;
+
+}
+
+.outrosD{
+    display: flex;
+    align-items: center;
+    
+}
